@@ -1,0 +1,126 @@
+/* GLOBAL */
+
+::-moz-selection { background: #FF8800; color: #fff; text-shadow: none; }
+::selection { background: #FF8800; color: #fff; text-shadow: none; }
+
+html, body, div, p, img {
+	border: 0px black solid;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+body {
+	color: white;
+	background-color: #33cccc;
+	}
+	
+a, a:active, a:visited, a:hover {
+	color: white;
+	text-decoration: none;
+	}
+	
+/* MAINFRAME */
+
+div#site {
+	background-color: #33cccc;
+	}
+	
+div.mainframe {
+	color: white;
+	font-family: 'Josefin Slab', serif;
+	max-width: 600pt;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30pt;
+	line-height: 1.5em;
+	padding-top: 50pt;
+	padding-left: 20pt;
+	padding-right: 20pt;
+	}
+
+#header h1 {
+	font-family: 'Noto Serif', serif;
+	font-size: 40pt;
+	text-shadow: 0pt 2pt 3pt #555;
+	}
+
+img.avatar {
+	padding-right: 50pt;
+}
+	
+ul {
+	list-style: none;
+	}
+	
+li {	
+	display: inline-block;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	margin-top: 5pt;
+	}
+
+/* SOCIALS */
+
+li.mail {
+	background-color: #FF8800;
+}
+li.linkedin {
+	background-color: #4875B4;
+}
+li.facebook {
+	background-color: #3B5998;
+}
+li.youtube {
+	background-color: #FF3333;
+}
+li.vimeo {
+	background-color: #aad450;
+}
+li.tumblr {
+	background-color: #2B4964;
+}
+li.twitter {
+	background-color: #33CCFF;
+}
+li.spotify {
+	background-color: #81b71a;
+}
+li.lastfm {
+	background-color: #D01F3C;
+}
+li.goodreads {
+	background-color: rgb(51, 36, 20);
+}
+li.instagram {
+	background-color: #517fa4;
+}
+li.geocaching {
+	background-color: rgb(123, 88, 56);
+}
+li.reddit {
+	background-color: #ff8b60;
+}
+li.steam {
+	background-color: rgb(19, 21, 27);
+}
+li.cucumbertown {
+	background-color: rgb(251, 43, 96);
+}
+li.oldprojects {
+	background-color: rgb(68, 46, 40);
+}
+li.netiketa {
+	background-color: #730C82;
+}
+
+/* BANK */
+div#site-bank {
+	background-color: black;
+	padding-bottom: 50pt;
+}
+
+p.small {
+	max-width: 600pt;
+	word-wrap: break-word;
+	font-size: 15pt;
+}
