@@ -124,11 +124,14 @@
     <div id="site">
       <div class="mainframe">
         <div id="header">
-          <h1>
-            <img class="avatar" src="graphics/myself.png" width="128" height="128" alt="Viktor Sec's avatar" /> Hi, I'm Viktor Seč
-          </h1>
-            Software Engineer, QA Analyst, Designer, Lector &amp; Cognitive Science Master's Student
-        </div>
+					<div class="flex">
+						<img class="avatar" src="graphics/myself.png" width="128" height="128" alt="Viktor Sec's avatar" />
+						<h1>Hi, I'm Viktor Seč</h1>
+					</div>
+					<p class="bio">
+						Software Engineer, QA Analyst, Designer, Lector &amp; Cognitive Science Master's Student
+					</p>
+				</div>
         <div id="list">
       <ul>
 		    <li class="mail">
