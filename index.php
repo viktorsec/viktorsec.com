@@ -43,6 +43,11 @@
           $("div#site").css("background-color", "#3B5998");
           $('img.avatar').attr('src', '/graphics/myself-twitter.png');
         });
+        $("li.github").hover(function(){
+          $("body").css("background-color", "black");
+          $("div#site").css("background-color", "black");
+          $('img.avatar').attr('src', '/graphics/myself-github.png');
+        });
         $("li.youtube").hover(function(){
           $("body").css("background-color", "#FF3333");
           $("div#site").css("background-color", "#FF3333");
@@ -142,6 +147,9 @@
         <li class="linkedin">
           <a href="https://sk.linkedin.com/in/yorulis">LinkedIn</a>
         </li>
+				<li class="github">
+					<a href="https://github.com/viktorsec">GitHub</a>
+				</li>
         <li class="facebook">
           <a href="http://facebook.com/yorulis">Facebook</a>
         </li>
