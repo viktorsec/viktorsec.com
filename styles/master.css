@@ -7,24 +7,24 @@ html, body, div, p, img {
 	border: 0px black solid;
 	margin: 0px;
 	padding: 0px;
-	}
-	
+}
+
 body {
 	color: white;
 	background-color: #33cccc;
-	}
-	
+}
+
 a, a:active, a:visited, a:hover {
 	color: white;
 	text-decoration: none;
-	}
-	
+}
+
 /* MAINFRAME */
 
 div#site {
 	background-color: #33cccc;
-	}
-	
+}
+
 div.mainframe {
 	color: white;
 	font-family: 'Josefin Slab', serif;
@@ -36,28 +36,46 @@ div.mainframe {
 	padding-top: 50pt;
 	padding-left: 20pt;
 	padding-right: 20pt;
-	}
+}
 
-#header h1 {
+#header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flex {
+	display: flex;
+}
+
+#header h1{
 	font-family: 'Noto Serif', serif;
 	font-size: 40pt;
 	text-shadow: 0pt 2pt 3pt #555;
-	}
+}
+
+p.bio {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40pt;
+	text-align: center;
+}
 
 img.avatar {
 	padding-right: 50pt;
 }
-	
+
 ul {
 	list-style: none;
-	}
-	
-li {	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li {
 	display: inline-block;
 	padding-left: 5pt;
 	padding-right: 5pt;
 	margin-top: 5pt;
-	}
+}
 
 /* SOCIALS */
 
