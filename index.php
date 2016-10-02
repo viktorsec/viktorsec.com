@@ -129,7 +129,9 @@
 						<h1>Hi, I'm Viktor Seč</h1>
 					</div>
 					<p class="bio">
-						Software Engineer, QA Analyst, Designer, Lector &amp; Cognitive Science Master's Student
+						Software Engineer at&nbsp;<a href="https://vacuumlabs.com/">Vacuumlabs</a>,<br />
+						Cognitive Science Master's Student at&nbsp;<a href="http://fmph.uniba.sk/">Comenius University</a>,
+						Maker & Lector at&nbsp;<a href="http://lab.cafe/">Lab</a>
 					</p>
 				</div>
         <div id="list">

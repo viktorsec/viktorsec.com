@@ -60,6 +60,14 @@ p.bio {
 	text-align: center;
 }
 
+.bio a {
+	border-bottom: 2px solid;
+}
+
+.bio a:hover {
+	color: #ff3399;
+}
+
 img.avatar {
 	padding-right: 50pt;
 }
