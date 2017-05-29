@@ -38,6 +38,14 @@ div.mainframe {
 	padding-right: 20pt;
 }
 
+div.account {
+  font-size: 21pt;
+}
+
+li.iban {
+  font-size: 30pt;
+}
+
 #header {
 	margin-left: auto;
 	margin-right: auto;
